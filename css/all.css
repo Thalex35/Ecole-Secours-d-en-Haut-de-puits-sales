@@ -1,5 +1,6 @@
 :root {
-  --principal_color: #1e3a8a;
+  --main_color: #ebebeb;
+  --secondary_color: #1e3a8a;
 }
 
 /* RESET BOX-SIZING POUR ÉVITER DÉBORDEMENTS */
@@ -11,7 +12,7 @@
 
 /* BODY */
 body {
-  background-color: #ebebeb;
+  background-color: var(--main_color);
   font-family: "Work Sans", sans-serif;
   margin: 0;
   padding: 0;
@@ -23,7 +24,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 0.5em 1em;
-  background: var(--principal_color);
+  background: var(--secondary_color);
   position: fixed; /* fixe le header en haut */
   top: 0;
   width: 100%;

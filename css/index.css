@@ -1,3 +1,5 @@
+@import url(all.css);
+
 .vid-nav {
   width: 100%;
   height: auto;
@@ -29,7 +31,7 @@ p {
   width: 30em;
   color: white;
   height: 4em;
-  background: var(--principal_color);
+  background: var(--secondary_color);
   border-radius: 2em;
   font-size: 1em;
   margin: 50px 0;
@@ -38,7 +40,7 @@ p {
 .btn-know:hover {
   transform: scale(1.1);
   background: white;
-  color: var(--principal_color);
+  color: var(--secondary_color);
 }
 .story {
   font-size: 2em;
@@ -72,7 +74,7 @@ p {
   margin: 50px 0;
 }
 .card {
-  background: var(--principal_color);
+  background: var(--secondary_color);
   color: white;
   padding: 50px;
   border-radius: 30px;
